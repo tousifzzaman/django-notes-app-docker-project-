@@ -34,4 +34,25 @@ cd django-notes-app
 cp .env.example .env
 🐳 3. Run the App
 docker compose up --build
+Access the app at: http://localhost
+(Use your EC2 public IP if running on a server)
+
+📝 Project Structure
+cpp
+Copy
+Edit
+.
+├── docker-compose.yml
+├── Dockerfile
+├── .env.example
+├── nginx/
+│   └── default.conf
+├── notesapp/ (Django project)
+├── mynotes/ (Django app)
+├── requirements.txt
+└── README.md
+🙌 Author
+Made with ❤️ by Tousif Zzaman
+
+
 
